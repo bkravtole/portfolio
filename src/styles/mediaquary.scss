@@ -1,0 +1,697 @@
+@media screen and (max-width : 1367px) {
+    nav {
+        padding: 0 $p_md;
+    }
+
+    #home {
+        height: 100vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_md;
+
+                >div aside {
+                    width: 85%;
+                }
+            }
+
+        }
+    }
+
+    #work {
+        padding: 0 $p_md;
+        // height: 110vh;
+        // >section{
+        //     >article{
+        //         height: 20rem;
+        //         width: 90%;
+        //     }
+        //     .workItem{
+        //         padding: 2rem;
+        //         height: 20rem;
+        //         >aside{ 
+        //            >p{
+        //               margin: 1rem;
+        //               }
+        //               >a{
+        //                 margin: 1rem;
+        //               }
+        //         }
+        //     }
+        // }
+    }
+
+    #timeline {
+        margin-top: 0;
+    }
+
+    #services {
+        padding: $p_md;
+
+        >section {
+            height: 90%;
+        }
+    }
+
+    #testimonial {
+        padding: $p_md;
+
+        >section {
+            width: 100%;
+        }
+    }
+
+    #contact {
+        >section>form {
+
+            >input,
+            >button {
+                font: 400 0.8rem $text1;
+                width: 50%;
+            }
+        }
+    }
+}
+
+
+
+
+
+// ---------------------------------------------------------------------
+
+
+
+
+
+
+@media screen and (max-width : 1100px) {
+    nav {
+        padding: 0 $p_base;
+    }
+
+    #home {
+        height: 110vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_base;
+
+                >div {
+                    >h1 {
+                        font: 900 3rem $text1;
+                    }
+
+                    aside {
+                        width: 100%;
+                    }
+                }
+            }
+
+            &:last-of-type {
+
+                &::after {
+
+                    width: 35vmax;
+                    height: 35vmax;
+
+
+                }
+
+                >img {
+                    width: 35vmax;
+                    height: 35vmax;
+
+                }
+            }
+        }
+    }
+
+    #work {
+        padding: 0 $p_base;
+        height: 100%;
+
+        section {
+            height: 37vmax;
+
+            >article {
+                height: 30vmax;
+
+                .workItem {
+                    padding: 2rem;
+                    height: 30vmax;
+                }
+            }
+        }
+    }
+
+    #services {
+        padding: $p_base_inverse;
+        text-align: center;
+
+    }
+}
+
+
+
+
+// -------------------------------------------------------//
+
+@media screen and (max-width : 900px) {
+    nav {
+        padding: 0 $p_sm;
+
+        >h2 {
+            font-size: 1.8rem;
+        }
+
+        >div {
+            gap: 0.5rem;
+        }
+    }
+
+    #home {
+        height: 100vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_sm;
+
+                >div {
+                    >div {
+                        gap: 2rem;
+                        width: 100%;
+                    }
+
+                    >aside {
+                        flex-direction: column;
+                    }
+                }
+            }
+
+
+
+        }
+    }
+
+    #work {
+        height: 100%;
+        padding: 0 $p_sm;
+
+        section {
+            height: 30rem;
+
+            >article {
+                height: 20rem;
+
+                .workItem {
+                    padding: 2rem;
+                    height: 20rem;
+
+                    >aside {
+                        >p {
+                            margin: 1rem;
+                        }
+
+                        >a {
+                            margin: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #services {
+        padding: $p_base_inverse;
+        height: 90%
+    }
+
+    #testimonial {
+        padding: $p_zero;
+
+        >h2 {
+            padding: 3rem;
+            margin-bottom: 0%;
+        }
+
+        >section {
+            padding: 3rem;
+            justify-content: space-evenly;
+            height: 40rem;
+
+            >article {
+                width: 40%;
+                height: 40%;
+
+                >img {
+
+                    width: 90px;
+                    height: 90px;
+                }
+
+                p {
+
+                    margin: 5px 0;
+
+                }
+            }
+        }
+    }
+
+    #contact {
+        >section>form {
+
+            >h2 {
+                font: 100 2.3rem $text2;
+            }
+
+            >input,
+            >button {
+
+                width: 65%;
+            }
+        }
+    }
+
+    footer {
+        padding-left: $p_zero;
+        grid-template-columns: 1fr;
+
+        >div {
+            width: 100%;
+            border: none;
+
+            p {
+                width: 50%;
+                margin: 2rem auto;
+
+            }
+        }
+
+        >a {
+            margin: 1rem;
+        }
+    }
+}
+
+
+
+
+// ----------------------------------------------------------------------
+
+
+@media screen and (max-width : 765px) {
+    nav {
+
+        >div,
+        >a {
+            display: none;
+        }
+
+        >button {
+            display: inline;
+        }
+    }
+
+    #home {
+        height: 100%;
+    }
+
+
+
+    #services {
+        padding: $p_sm;
+
+    }
+
+    #testimonial {
+
+        >section {
+            margin-bottom: 3rem;
+
+            height: 40rem;
+            background-color: $color1;
+            gap: 20px;
+
+            >article {
+                margin-top: 1rem;
+
+
+                >img {
+
+                    width: 100px;
+                    height: 100px;
+
+                }
+            }
+        }
+    }
+
+    footer {
+        padding-top: 2.5rem;
+    }
+}
+
+// ---------------------------------------------------------------
+
+@media screen and (max-width : 720px) {
+
+
+    // #timeline {
+    //     .timelinebox {
+    //         .timelineItem {
+    //             padding: 0 1rem;
+
+    //             &:nth-child(odd) {
+    //                 text-align: center;
+    //             }
+
+    //             &:nth-child(even) {
+    //                 text-align: center;
+
+    //             }
+
+
+    //         }
+    //     }
+    // }
+
+    #timeline {
+        .timelinebox {
+            padding: 0;
+
+            &::after {
+                left: 50px;
+            }
+
+
+            .timelineItem {
+                margin: 2rem;
+                width: 100%;
+                padding-left: 5rem;
+                padding-right: 5rem;
+                text-align: center;
+                left: 0;
+
+                &::after {
+                    left: 35px;
+                }
+
+            }
+
+        }
+
+    }
+
+
+    #services {
+        padding: 0;
+
+        >section {
+            grid-template-columns: repeat(3, 1fr);
+            margin: 2rem;
+
+            height: 90%;
+            gap: 1rem;
+
+            >* {
+
+                justify-content: space-evenly;
+
+                >svg {
+                    font-size: 2rem;
+                }
+
+                >span {
+                    font: 600 0.7rem $text2;
+                }
+            }
+        }
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+@media screen and (max-width : 555px) {
+    #home {
+        height: unset;
+        flex-direction: column-reverse;
+
+        >section {
+            &:first-of-type {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+
+                >div {
+                    border: none;
+                    padding-top: 5rem;
+
+                    >h1 {
+                        font: 900 2.5rem $text1;
+
+                    }
+
+                    >div {
+                        flex-direction: column;
+                        gap: 2rem;
+                        width: 100%;
+                    }
+
+                    >aside {
+                        align-items: center;
+
+                        >article {
+                            &:first-of-type {
+                                width: 100%;
+                                text-align: center;
+
+                                &::after {
+                                    top: 0;
+                                    left: 0;
+                                }
+                            }
+
+                        }
+
+                        >article[data-special] {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            span {
+                                display: block;
+                                word-wrap: break-word;
+                            }
+
+                            &::after {
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+                    }
+
+                    >article {
+                        width: 100%;
+                        text-align: center;
+
+                        &::after {
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+
+            &:last-of-type {
+                padding-top: 3rem;
+                border: none;
+            }
+
+
+        }
+
+        >svg {
+            font-size: 2.5rem;
+            bottom: 12%;
+        }
+
+    }
+
+
+    #work {
+
+
+        section {
+
+
+            >article {
+                width: 100%;
+                height: 30vmax;
+
+                .workItem {
+                    height: 30vmax;
+
+                    >aside {
+                        padding: 1rem;
+
+                        >h3 {
+                            margin: 1rem;
+                        }
+
+                        >p {
+                            letter-spacing: 0;
+                            margin: 0rem;
+                            line-height: unset;
+                            font-size: 0.75rem;
+                        }
+
+                        >a {
+                            padding: 0.4rem 0.7rem;
+                            margin: 1rem;
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #timeline {
+        .timelineBox::after {
+            left: 31px;
+        }
+
+        .timelineItem {
+            width: 100%;
+            padding-left: 5rem;
+            padding-right: 2rem;
+        }
+
+        .rightTimeline {
+            left: 0;
+
+        }
+
+        .rightTimeline .leftTimeline {
+            &::after {
+                left: 15px;
+            }
+
+        }
+    }
+
+
+    #services {
+
+        margin-bottom: 3rem;
+        padding-top: 2rem;
+
+        >section {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+
+
+
+
+
+            .serviceBox1 {
+
+                grid-column: 1/3;
+                grid-row: unset;
+            }
+
+            .serviceBox4 {
+                grid-column: 1/3;
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+    // #services {
+    //     >h2 {
+    //        font-size: 1.5rem;
+    //     }
+
+    //     padding: 0;
+
+    //     >section {
+
+    //         margin: 2rem;
+
+    //         height: 100%;
+    //         // gap: 7px;
+
+    //         >* {
+    //             width: 100%;
+    //             height: 100%;
+    //             padding: 5px;
+    //             justify-content: center;
+
+    //             >svg {
+    //                 font-size: 2rem;
+    //             }
+
+    //             >span {
+    //                 font: 600 0.7rem $text2;
+    //             }
+
+    //         }
+    //     }
+
+    //     .serviceBox1 {
+
+    //         >h3 {
+    //             font: 400 3rem $text1;
+    //         }
+
+    //         >p {
+    //             font: 500 1rem $text2;
+    //         }
+    //     }
+    // }
+
+    #testimonial {
+
+        >section {
+            // margin-bottom: 3rem;
+
+            height: unset;
+
+            gap: 3rem;
+
+            >article {
+                // margin-top: 1rem;
+                width: 100%;
+                height: 100vw;
+
+                >img {
+
+                    width: 100px;
+                    height: 100px;
+
+                }
+            }
+        }
+    }
+#contact{
+    min-height: 60vh;
+    grid-template-columns: 1fr;
+    >section{
+        height: 50%;
+    }
+    >aside{
+        display: none;
+    }
+}
+}

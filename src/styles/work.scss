@@ -1,0 +1,70 @@
+#work{
+    width: 100%;
+    height: 100vh;
+    padding: 8rem $p;
+    >h2{
+        font: 700 2.5rem $text2;
+        width: fit-content;
+        border-bottom: 1px solid $color6_1;
+        padding: 0.5rem;
+        margin: auto;
+    }
+
+    section{
+        width: 100%;
+        height: 100%;
+        margin-top: 4rem;
+        background-color: $color5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >article{
+            width: 70%;
+            height: 20vmax;
+          
+        }
+
+        .workItem{
+            overflow-y: auto;
+            width: 95%;
+            height: 20vmax;
+            margin: auto;
+            background-color: $color4;
+            display: flex;
+            padding: 2rem;
+            border-radius: 5px;
+            //  box-shadow: 0 0 20px 5px $color1;
+
+            >img{
+                border-radius: 20px;
+                width: 40%;
+                object-fit: cover;
+            }
+            aside{
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                >p{
+                    letter-spacing: 1px;
+                    line-height: 130%;
+                    margin: 0.5rem;
+                  }
+
+                >a{
+                    background-color: $color3;
+                    padding: 0.7rem 2rem;
+                    margin: 1rem;
+                    color: $color4;
+                    transition: all 0.5s;
+                    &:hover{
+                        background-color: $color3_1;
+                    }
+                }
+            }
+        }
+    } 
+}
